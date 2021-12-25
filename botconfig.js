@@ -1,7 +1,7 @@
 module.exports = {
-  Admins: ["UserID", "UserID"], //Admins of the bot
-  ExpressServer: true, //If you wanted to make the website run or not
-  DefaultPrefix: process.env.Prefix || ">", //Default prefix, Server Admins can change the prefix
+  Admins: ["611501944649023498"], //Admins of the bot
+  ExpressServer: false, //If you wanted to make the website run or not
+  DefaultPrefix: process.env.Prefix || "-", //Default prefix, Server Admins can change the prefix
   Port: 3000, //Which port website gonna be hosted
   SupportServer: "https://discord.gg/sbySMS7m3v", //Support Server Link
   Token: process.env.Token || "", //Discord Bot Token
@@ -28,9 +28,9 @@ module.exports = {
   //Lavalink
   Lavalink: {
     id: "Main",
-    host: "host name or IP",
-    port: 80, // The port that lavalink is listening to. This must be a number!
-    pass: "your password",
+    host: "lava.pumpdev.org",
+    port: 3799, // The port that lavalink is listening to. This must be a number!
+    pass: "pumpisfree",
     secure: false, // Set this to true if the lavalink uses SSL or you're hosting lavalink on repl.it
   },
 
